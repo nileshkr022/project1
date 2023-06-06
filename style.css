@@ -1,0 +1,237 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&family=Secular+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navlogo img
+{
+    
+    height: 75px;
+    display: inline-block;
+    scale: 0.80;
+}
+#l1{
+    display: inline-block;
+    list-style-type: none;
+    overflow: visible;
+    
+}
+.navlogo{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: block;
+
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    max-width: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+   
+}
+nav ul{
+    overflow: auto;
+    height: 75px;
+    
+}
+nav li{
+    float: left;
+    list-style: none;
+margin: 13px 20px;}
+nav li a{
+    padding: 3px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.687);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 21px;
+    margin-top: 10px;
+    display: flex;
+}
+nav li a:hover
+{
+    color: black;
+    transition: 0.1s;
+}
+.btn
+{
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+  float: right;
+  height: 30px;
+  width: 100px;
+  font-size: 21px;
+ 
+  margin-right: 25px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 2px;
+}
+.btn:hover
+{
+    background-color: red;
+    color: white;
+    transition: 0.4s;
+}
+.a
+{
+    margin-top: 70px;
+    color: white;
+    height: auto;
+    background-image: url('bg13.jpg');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    
+}
+.a p
+{
+    width: 65%;
+    font-family: 'Prompt', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: transparent;
+    margin-top: 75px;
+    
+    
+}
+.centb
+{
+    font-size: 20px;
+    margin-top: 250px;
+    height: 70px;
+    width: 300px;
+    background: none;
+    border-radius: 20px;
+    color: white;
+    border: 2px solid white;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 50px;
+}
+.centb:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.5s; 
+}
+.b{
+    
+    padding: 5%;
+}
+.abth{
+    font-family: 'Secular One', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+.info
+{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.big
+{
+    margin-top: 15%;
+    margin-left: 270px;
+    margin-right: 270px;
+}
+.d a{
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+}
+.tab
+{
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    margin: 2.5%;
+    
+}
+.tab a{
+    font-family: 'Geologica', sans-serif;
+    color: white;
+    width: 100%;
+}
+.d{
+    background-color: rgba(0, 0, 0, 0.824);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add
+{
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+    color: white;
+    margin: 2.5%;
+}
+.email
+{
+    font-family: 'Geologica', sans-serif;
+    color: white;
+    display: inline-block;
+    width: 15%;
+    margin: 5%;
+    text-align: center;
+}
+.email input
+{
+    width: 80%;
+    height: 15%;
+    scale: 1.5;
+    
+}
+.tab a:hover
+{
+    color: beige;
+}
+.email label
+{
+    margin-bottom: 5px;
+}
+.btn22{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    height: 30px;
+    width: 100px;
+    font-size: 21px;
+ 
+    margin-right: 25px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 2px;
+}
+
+    
